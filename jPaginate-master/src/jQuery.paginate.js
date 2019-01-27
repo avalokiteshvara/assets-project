@@ -25,7 +25,7 @@
 		obj = $( this );
 
 		// Count entries in block for pagination
-		var n = obj.children().size();
+		var n = obj.children().length;
 
 		// Calculate number of pages
 		var pages = Math.ceil( n / options.items_per_page );
